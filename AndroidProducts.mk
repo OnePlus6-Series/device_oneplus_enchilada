@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_enchilada.mk
+    $(LOCAL_DIR)/mist_enchilada.mk
+
+COMMON_LUNCH_CHOICES := \
+    mist_enchilada-user \
+    mist_enchilada-userdebug \
+    mist_enchilada-eng
